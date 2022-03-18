@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<di>, initial-scale=1.0">
+    <title>Task1</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* Set additional styling options for the columns*/
+        .coloum {
+            float: left;
+            width: auto;
+            height: 500px;
+            margin-top: 50px;
+
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="coloum" style="background-color: rgb(139, 44, 139);    margin-left: 240px;">
+        <center>
+            <p style="font-family: fantasy; font-size: 40px;">PUPASSURE</p>
+        </center>
+        <img src="images.png" style="margin-top: 130px; margin-left: 40px; margin-right: 40px;"></td>
+    </div>
+
+
+    <div class="coloum" style="background-color: palevioletred; padding-left: 20px; padding-right: 20px;">
+
+        <p class="lead" style=" font-size: 30px; font-family:sans-serif;">Yay, puppies! Ensure your<br>
+            pup gets the best care! </p>
+        <br><br>
+        <table>
+            <tr>
+                <td>
+                    <strong> Name</strong><br><input type="text" placeholder="Pet's name" style="max-width: 50;"><br><br>
+                </td>
+                <td>
+                    <i class="material-icons" style="padding-left: 80px;;">&#xe439;</i>
+                </td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td>
+                    <strong> Breed</strong><br><input type="text" placeholder="Pet's breed" style="max-width: 50;"><br>
+                </td>
+                <td style="padding-left: 35px;">
+                    <strong>Birthday</strong><br><input type="date" style="max-width: 70;"><br>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+        <table>
+            <tr>
+                <td>
+                    <strong> Gender</strong><br>
+                    <input type="radio" id="ma" value="Male" name="Gender">
+                    <label for="ma" >Male</label>
+                    <input type="radio" id="fm" value="Female" name="Gender">
+                    <label for="fm">Female</label><br>
+                </td>
+                <td style="padding-left: 80px;">
+                    <br>
+                    <strong> Spayed or Neutered</strong><br>
+                    <input type="radio" id="sp" value="Spayed" style="max-width: 30;" name="Spayed or Neutered">
+                    <label for="sp">Spayed</label>
+                    <input type="radio" id="ne" value="Neutered" style="max-width: 30;" name="Spayed or Neutered">
+                    <label for="ne">Neutered</label><br>
+                    <br>
+                </td>
+            </tr>
+        </table>
+
+
+        <strong> Weight</strong><br>
+        <input type="radio" id="1" value="0-25 lbs" style="max-width: 30;" name="Weight">
+        <label for="1">0-25 lbs</label>
+        <input type="radio" id="2" value="25-50 lbs" style="max-width: 30;" name="Weight">
+        <label for="2">25-50 lbs</label>
+        <input type="radio" id="3" value="50-100 lbs" style="max-width: 30;" name="Weight">
+        <label for="3">50-100 lbs</label>
+        <input type="radio" id="4" value="100+ lbs" style="max-width: 30;" name="Weight">
+        <label for="4">100+ lbs</label><br>
+
+        <div style="padding-top: 22px;">
+            <input type="button" value="Back"
+                style="border-radius: 12px;  margin-left: 5px; color: rgb(139, 44, 139); width: 90px; height: 30px;">
+            <input type="button" value="Next"
+                style="border-radius: 12px;  margin-left: 240px; color: rgb(139, 44, 139); width: 90px; height: 30px;">
+        </div>
+    </div>
+
+</body>
+</html>
